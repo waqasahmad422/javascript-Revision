@@ -11,4 +11,4 @@ else{
 
 // usng ternary operator 
 let oddEvenChecker=num%2==0 ? "Number is Even": "odd";
-console.log(oddEvenChecker)
+console.log(oddEvenChecker);
