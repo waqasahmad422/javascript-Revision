@@ -6,3 +6,9 @@ if(num%2==0){
 else{
     console.log(`${num} is Odd number`);
 }
+
+
+
+// usng ternary operator 
+let oddEvenChecker=num%2==0 ? "Number is Even": "odd";
+console.log(oddEvenChecker)
