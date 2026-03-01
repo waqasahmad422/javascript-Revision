@@ -1,11 +1,8 @@
+function palindrome(str){
+    const strToLower = str.toLowerCase();
+    const reverseToStr= strToLower.split('').reverse().join('');
 
-
-function isPalindrome(str) {
-    const cleanStr = str.toLowerCase();
-    const reversedStr = cleanStr.split('').reverse().join('');
-    return cleanStr === reversedStr ? true : false;
+    return strToLower === reverseToStr ? true:false;
 }
 
-
-console.log(isPalindrome("madam")); 
-console.log(isPalindrome("hello")); 
+console.log(palindrome("madam"));
